@@ -1,0 +1,16 @@
+{
+  "name": "Universal Cornea Care Mission - KERACON 2027",
+  "short_name": "UCCM AI",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#080e18",
+  "theme_color": "#080e18",
+  "orientation": "landscape",
+  "icons": [
+    {
+      "src": "./icons/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

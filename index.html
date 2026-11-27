@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#080e18"><title>Universal Cornea Care Mission</title>
+<link rel="manifest" href="./manifest.webmanifest"><link rel="icon" href="./icons/icon.svg"><link rel="stylesheet" href="./styles.css">
+</head><body><main class="app-shell">
+<header class="topbar"><div class="brand"><div class="brand-mark">◉</div><div><div class="brand-short">UCCM</div><div class="brand-long">UNIVERSAL CORNEA CARE MISSION</div></div></div></header>
+<section id="home-screen" class="screen"><div class="hero"><div class="eyebrow">ARTIFICIAL INTELLIGENCE · CORNEAL CARE</div><h1>UNIVERSAL CORNEA CARE</h1><div class="hero-mission">MISSION</div><p>Advancing Corneal Care Through Artificial Intelligence</p></div>
+<h2 class="section-heading">SELECT AN AI EXPERIENCE</h2><div class="model-list">
+<button class="model-card" data-model="infection"><span class="model-icon"><img id="home-icon-infection" src="./assets/logos/infection.svg" alt="Infection logo"></span><span class="model-copy"><strong>AI Corneal Infection Classifier</strong><small>Explore three AI model demonstrations.</small></span><span class="chevron">›</span></button>
+<button class="model-card" data-model="kerato"><span class="model-icon"><img id="home-icon-kerato" src="./assets/logos/keratoconus.svg" alt="Keratoconus logo"></span><span class="model-copy"><strong>Keratoconus Progression Classifier</strong><small>Explore three progression demonstrations.</small></span><span class="chevron">›</span></button>
+<button class="model-card" data-model="kpop"><span class="model-icon"><img id="home-icon-kpop" src="./assets/logos/keratoplasty.svg" alt="Keratoplasty logo"></span><span class="model-copy"><strong>Keratoplasty Outcome Prediction Model</strong><small>Explore the 60-second workflow.</small></span><span class="chevron">›</span></button>
+</div></section>
+<section id="options-screen" class="screen hidden"><button id="options-back" class="back-button" type="button">← Back</button><div class="experience-heading"><img id="options-logo" src="./assets/logos/infection.svg" alt="Selected experience logo"><div><div id="options-eyebrow" class="screen-eyebrow">SELECT A MODEL</div><h2 id="options-title"></h2></div></div><p id="options-description" class="screen-description"></p><div id="option-list" class="option-grid"></div></section>
+<section id="player-screen" class="screen player-screen hidden" aria-live="polite"><div class="player-toolbar"><button id="player-back" class="back-button" type="button">← Back</button><button id="fullscreen-button" class="fullscreen-button" type="button" aria-label="Enter full screen">⛶ Full screen</button></div><div class="player-topline"><span id="playing-label" class="playing-indicator"><i></i> NOW PLAYING</span><span id="player-code" class="player-code"></span></div>
+<div id="video-frame" class="video-frame"><video id="presentation-video" playsinline preload="auto"></video><button id="minimize-button" class="minimize-button" type="button" aria-label="Minimize video">↙ Minimize</button><div id="video-error" class="video-error hidden"><strong>Video could not be played.</strong><span>Check that the MP4 file is in the videos folder.</span><button id="retry-button" class="retry-button">Retry</button></div></div>
+<div class="player-caption"><strong id="player-title"></strong></div></section>
+</main><script src="./config.js"></script><script src="./app.js"></script></body></html>
